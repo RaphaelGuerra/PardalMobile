@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+            android:id="@+id/yourProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yourProfile" />
+    <TextView
+            android:layout_below="@id/yourProfile"
+            android:id="@+id/yourName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yourName" />
+    <EditText
+            android:layout_below="@id/yourName"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName" />
+    <TextView
+            android:layout_below="@id/name"
+            android:id="@+id/yourEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yourEmail" />
+    <EditText
+            android:layout_below="@id/yourEmail"
+            android:id="@+id/profileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/profileEmail"
+            android:inputType="textEmailAddress" />
+    <TextView
+            android:layout_below="@id/profileEmail"
+            android:id="@+id/yourPic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    <ImageButton
+            android:layout_below="@id/yourPic"
+            android:contentDescription="@string/imageButton"
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/picture_frame" />
+    <TextView
+            android:layout_below="@id/imageButton"
+            android:id="@+id/takePic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/takePic" />
+    <Button
+            android:text="Go to chat"
+            android:layout_below="@+id/takePic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/goChat"/>
+</RelativeLayout>

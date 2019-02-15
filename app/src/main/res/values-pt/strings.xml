@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kotlin</string>
+    <string name="enterEmail">Seu email:</string>
+    <string name="email">Digite seu email aqui</string>
+    <string name="enterPassword">Digite sua senha:</string>
+    <string name="login">LOGAR</string>
+    <string name="yourProfile">Seu perfil:</string>
+    <string name="yourName">Seu nome:</string>
+    <string name="name">Digite seu nome</string>
+    <string name="yourEmail">Seu email:</string>
+    <string name="profileEmail">Digite seu email</string>
+    <string name="imageButton">Tire uma foto!</string>
+    <string name="takePic">Aperte o botão acima para tirar uma foto</string>
+</resources>
